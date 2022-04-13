@@ -53,11 +53,7 @@ The reason to hashing a password, is to avoid storing plaintext passwords in a d
 4. Go [here](https://jwt.io). Create a JWT with the following as the payload (feel free to change the username/email):
 
 ```js
-{
-  "id": "1",
-  "username": "bruno",
-  "email": "bruno@ga.co"
-}
+https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6ImJydW5vIiwiZW1haWwiOiJicnVub0BnYS5jbyJ9.yN49BHbK5ts6gBt7znY3DGE-k2BqCCMoA0BBS2Hi7Zo
 ```
 
 Paste your encoded JWT below:
