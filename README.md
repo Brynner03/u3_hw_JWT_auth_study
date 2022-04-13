@@ -53,13 +53,17 @@ The reason to hashing a password, is to avoid storing plaintext passwords in a d
 4. Go [here](https://jwt.io). Create a JWT with the following as the payload (feel free to change the username/email):
 
 ```js
-https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6ImJydW5vIiwiZW1haWwiOiJicnVub0BnYS5jbyJ9.zuP2H47UB7r1sOaInjU85eeTUhEzYOT79FF6J_rg9FI
+{
+  "id": "1",
+  "username": "bruno",
+  "email": "bruno@ga.co"
+}
 ```
 
 Paste your encoded JWT below:
 
 ```
-I don't know.
+https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6ImJydW5vIiwiZW1haWwiOiJicnVub0BnYS5jbyJ9.zuP2H47UB7r1sOaInjU85eeTUhEzYOT79FF6J_rg9FI
 ```
 
 **Bonus**: Read https://blog.angular-university.io/angular-jwt
